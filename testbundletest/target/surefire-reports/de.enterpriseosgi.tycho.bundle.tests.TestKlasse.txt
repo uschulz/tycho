@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: de.enterpriseosgi.tycho.bundle.tests.TestKlasse
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec <<< FAILURE! - in de.enterpriseosgi.tycho.bundle.tests.TestKlasse
+test(de.enterpriseosgi.tycho.bundle.tests.TestKlasse)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: Not yet implemented
+	at org.junit.Assert.fail(Assert.java:88)
+	at de.enterpriseosgi.tycho.bundle.tests.TestKlasse.test(TestKlasse.java:11)
+

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: testbundle
+Bundle-Name: de.enterprise.osgi.testbundle
+Bundle-Version: 0.0.1.201602101931
+Require-Bundle: org.junit
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Fragment-Host: bundle
+

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='bundle' version='0.0.1.201602101924' singleton='false'>
+    <update id='bundle' range='[0.0.0,0.0.1.201602101924)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='de.enterprise.osgi.testbundle'/>
+      <property name='maven-groupId' value='de.enterpriseosgi.tycho'/>
+      <property name='maven-artifactId' value='bundle'/>
+      <property name='maven-version' value='0.0.1-SNAPSHOT'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='bundle' version='0.0.1.201602101924'/>
+      <provided namespace='osgi.bundle' name='bundle' version='0.0.1.201602101924'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='bundle' version='0.0.1.201602101924'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: bundle&#xA;Bundle-Version: 0.0.1.201602101924&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
